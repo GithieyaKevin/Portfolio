@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+    color:white ;
+}
+h1{
+    background-color: black;
+    color:aqua;
+    text-align: center;
+}
+.About_me{
+    background-color: blanchedalmond;
+    color: blue ;
+    width: 250px ;
+}
