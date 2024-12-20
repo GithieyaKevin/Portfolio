@@ -1,0 +1,90 @@
+body{
+    background-color: black;
+    color:white ;
+}
+nav{
+    display: flex ;
+    flex-direction: row ;
+    margin: 0 auto ;
+    position: fixed ;
+    background-color: black ;
+    opacity: 1 ;
+    top: 0 ;
+    z-index: 1 ;
+    width: 100% ;
+    height: 5rem ;
+    justify-content: space-between;
+}
+a{
+    color: white ;
+    text-decoration: none ;
+    margin: 0 ;
+    padding: 2rem ;
+}
+a:link{
+    color:white ;
+}
+a:hover{
+    color:#FFB200 ;
+    text-decoration: underline ;
+    text-underline-offset: 0.5rem ;
+}
+a:active{
+    color:#FFB200 ;
+}
+.logopicture{
+    width:5rem ;
+    height: 5rem ;
+}
+section{
+    margin-top: 7rem ;
+    line-height: 3 ;
+}
+.watermark{
+    font-size: 5rem ;
+    color: grey ;
+    display: inline-block ;
+    z-index: -1 ;
+    left: 35rem ;
+    position: fixed ;
+    opacity: 0.4 ;
+}
+h2{
+    text-align: center ;
+}
+.html{
+    width: 40% ;
+    height: 0.5rem ;
+    background-color: grey ;
+    border-radius: 3rem ;
+}
+.html-level{
+    background-color:#FFB200 ;
+    width: 96% ;
+    height: 0.5rem ;
+    border-radius: 3rem ;
+}
+.css-level{
+    background-color:#FFB200 ;
+    width: 90% ;
+    height: 0.5rem ;
+    border-radius: 3rem ;
+}
+.js-level{
+    background-color:#FFB200 ;
+    width: 85% ;
+    height: 0.5rem ;
+    border-radius: 3rem ;
+}
+.react-level{
+    background-color:#FFB200 ;
+    width: 84% ;
+    height: 0.5rem ;
+    border-radius: 3rem ;
+}
+.bootstrap-level{
+    background-color:#FFB200 ;
+    width: 90% ;
+    height: 0.5rem ;
+    border-radius: 3rem ;
+}

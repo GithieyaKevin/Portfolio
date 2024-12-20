@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    color:white ;
+}
+.mynames{
+    color: #FFB200 ;
+}
+nav{
+    display: flex ;
+    flex-direction: row ;
+    margin: 0 auto ;
+    position: fixed ;
+    top: 0 ;
+    background-color: black ;
+    z-index:1 ;
+    opacity: 1 ;
+    width: 100% ;
+    height: 5rem ;
+    justify-content: space-between;
+}
+a{
+    color: white ;
+    text-decoration: none ;
+    margin: 0 ;
+    padding: 2rem ;
+}
+a:link{
+    color:white ;
+}
+a:hover{
+    color:#FFB200 ;
+    text-decoration: underline ;
+    text-underline-offset: 0.5rem ;
+}
+a:active{
+    color:#FFB200 ;
+}
+.logopicture{
+    width:5rem ;
+    height: 5rem ;
+}
+h2, p{
+    text-align: center ;
+}
+main{
+    margin-top: 7rem ;
+}
